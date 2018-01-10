@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@color/colorPrimaryDark">
+<!--<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_gravity="center"
+    android:gravity="center">-->
+    <TextView
+        android:layout_marginLeft="20dp"
+        android:id="@+id/firstname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="firstname"
+        android:textSize="40sp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="    ,"
+            android:textSize="20sp"/>
+    <TextView
+        android:id="@+id/lastname"
+        android:layout_marginLeft="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="lastname"
+        android:textSize="40sp"/>
+
+
+
+
+    <TextView
+        android:layout_marginTop="15dp"
+        android:id="@+id/email"
+        android:layout_marginLeft="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="email"
+        android:textSize="20sp"/>
+
+    <TextView
+
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:id="@+id/company"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="company"
+        android:textSize="30sp"/>
+    <TextView
+
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:id="@+id/startdate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="startdate"
+        android:textSize="30sp"/>
+
+    <TextView
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="20dp"
+        android:id="@+id/biog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="BIOGRAPHY :"
+        android:textSize="25sp"/>
+    <TextView
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="20dp"
+        android:id="@+id/bio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="bio"
+        android:textSize="25sp"/>
+
+    <ImageView
+        android:layout_marginLeft="20dp"
+        android:id="@+id/imageView"
+        android:layout_width="300px"
+        android:layout_height="300px"
+        app:srcCompat="@mipmap/ic_launcher" />
+    </LinearLayout>
+</ScrollView>
